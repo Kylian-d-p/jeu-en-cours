@@ -49,6 +49,12 @@ h1 {
   flex: 1;
 }
 
+.horses {
+  display: flex;
+  flex-direction: column;
+  padding-right: 80px;
+}
+
 .horse {
   position: relative;
 }
@@ -128,5 +134,9 @@ h3 {
 @media screen and (max-width: 640px) {
   #finish-line {
     width: 40px;
+  }
+
+  .horses {
+    padding-right: 40px;
   }
 }
