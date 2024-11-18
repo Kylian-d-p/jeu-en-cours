@@ -24,6 +24,7 @@ main{
 h1#title {
   color: #f3ebe5;
   font-size: 3rem;
+  text-align: center;
 }
 
 div#start-container {
