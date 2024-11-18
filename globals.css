@@ -52,6 +52,11 @@ button {
 button:hover {
   transition: .3s;
   animation: bounce .4s;
+  transition-timing-function: cubic-bezier(0.2, 0.89, 0.65, 1.74);
+}
+
+button:active {
+  transform: scale(0.95);
 }
 
 input {
