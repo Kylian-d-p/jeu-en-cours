@@ -55,15 +55,15 @@ h1 {
   padding-right: 80px;
 }
 
-.horse {
+.horse-track {
   position: relative;
 }
 
-.horse img {
+.horse-track img {
   object-fit: contain;
 }
 
-.horse .ground {
+.horse-track .ground {
   position: absolute;
   bottom: 18px;
   width: 100%;
