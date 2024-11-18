@@ -1,5 +1,5 @@
 main {
-  height: 100dvh;
+  min-height: 100dvh;
   background-image: url("/assets/ecurie.jpg");
   background-size: cover;
   background-position: center;
