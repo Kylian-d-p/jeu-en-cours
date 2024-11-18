@@ -7,7 +7,7 @@ Jeu de courses de chevaux
 - /leaderboard/index.html - Page de classement
 
 ## Page d'accueil
-Contient un formulaire pour démarrer / rejoindre une partie.
+Contient un formulaire pour démarrer / rejoindre / créer une partie.
 
 ## Page de jeu
 Permet de jouer à la course de chevaux.
