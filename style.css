@@ -27,32 +27,39 @@ h1#title {
   text-align: center;
 }
 
-div#start-container {
+#home-play-items > div {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-#start-container .or {
+#home-play-items form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#home-play-items .or {
   text-align: center;
   color: #fff;
   display: grid;
   grid-template-columns: 1fr auto 1fr;
   gap: 10px;
   align-items: center;
+  width: 100%;
 }
 
-#start-container .or div {
+#home-play-items .or div {
   width: 100%;
   background-color: #fff;
   height: 1px;
 }
 
-#start-container input {
+#home-play-items form input {
   width: 100%;
 }
 
-button#start-button{
+#home-play-items form button{
   font-size: 1.5rem;
   width: 100%;
   text-align: center;
