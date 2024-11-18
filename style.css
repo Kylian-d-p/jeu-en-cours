@@ -32,6 +32,25 @@ div#start-container {
   gap: 10px;
 }
 
+#start-container .or {
+  text-align: center;
+  color: #fff;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 10px;
+  align-items: center;
+}
+
+#start-container .or div {
+  width: 100%;
+  background-color: #fff;
+  height: 1px;
+}
+
+#start-container input {
+  width: 100%;
+}
+
 button#start-button{
   font-size: 1.5rem;
   width: 100%;
