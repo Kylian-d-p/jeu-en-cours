@@ -1,4 +1,4 @@
-Jeu de courses de chevaux
+# Jeu de courses de chevaux
 
 3 pages :
 - /index.html - Page d'accueil
