@@ -57,6 +57,7 @@ h1 {
 
 .horse-track {
   position: relative;
+  height: 100px;
 }
 
 .horse-track img {
@@ -69,6 +70,28 @@ h1 {
   width: 100%;
   height: 3px;
   background-color: #bd550f;
+}
+
+.horse {
+  position: absolute;
+  z-index: 10;
+  animation: gallop .2s ease-out infinite alternate;
+}
+
+.horse-track:nth-child(1) .horse {
+  left: 20%;
+}
+
+.horse-track:nth-child(2) .horse {
+  left: 45%;
+}
+
+.horse-track:nth-child(3) .horse {
+  left: 30%;
+}
+
+.horse-track:nth-child(4) .horse {
+  left: 10%;
 }
 
 #finish-line {
@@ -119,6 +142,15 @@ h3 {
   text-decoration: underline 2px;
 }
 
+@keyframes gallop {
+  from {
+    transform: rotate(10deg);
+  }
+
+  to {
+    transform: rotate(-10deg);
+  }
+}
 
 @media screen and (max-width: 768px) {
   #game-container {
