@@ -14,7 +14,7 @@ header {
   grid-template-columns: 100px 1fr 100px;
 }
 
-#titre {
+h1 {
   color: #fff;
   background-color: #00000064;
   padding: 10px;
